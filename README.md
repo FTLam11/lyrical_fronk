@@ -4,7 +4,7 @@ Lyrics/Last.FM plugin used with [Audio Station Scrobbler](https://github.com/FTL
 
 ## Installation
 
-Please refer to [Synology Knowledge Base](https://www.synology.com/en-us/knowledgebase/DSM/help/AudioStation/browsemusic) for detailed steps in installing the lyrics plugin. The lyric plugin to install is **fronklyric.aum**.
+Please refer to [Synology Knowledge Base](https://www.synology.com/en-us/knowledgebase/DSM/help/AudioStation/browsemusic) for detailed installation steps. The lyric plugin file to install is **fronklyric.aum**.
 
 ## Credits
 
