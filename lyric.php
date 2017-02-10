@@ -7,6 +7,12 @@ if (!class_exists('FujirouCommon')) {
     }
 }
 
+if (!class_exists('Scrobbler')) {
+    if (file_exists(__DIR__.'/scrobbler.php')) {
+        include_once(__DIR__.'/scrobbler.php');
+    }
+}
+
 class FujirouMusixMatch{
     private $_site = 'https://www.musixmatch.com';
 
@@ -14,6 +20,7 @@ class FujirouMusixMatch{
     }
 
     public function getLyricsList($artist, $title, $info) {
+        Scrobbler::scrobbleTrack($artist, $title);
         return $this->search($info, $artist, $title);
     }
     public function getLyrics($id, $info) {
