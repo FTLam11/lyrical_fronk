@@ -24,7 +24,6 @@ class Scrobbler
 
     curl_setopt($curl, CURLOPT_URL, $url);
 
-    // session_write_close();
     curl_exec($curl);
     curl_close($curl);
 

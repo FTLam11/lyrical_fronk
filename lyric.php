@@ -23,6 +23,7 @@ class FujirouMusixMatch{
         Scrobbler::scrobbleTrack($artist, $title);
         return $this->search($info, $artist, $title);
     }
+    
     public function getLyrics($id, $info) {
         return $this->get($info, $id);
     }
