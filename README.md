@@ -1,6 +1,6 @@
 # lyrical_fronk
 
-Lyrics/Last.FM plugin used with [Audio Station Scrobbler](https://github.com/FTLam11/Audio-Station-Scrobbler) to scrobble music to a Last.FM account. Check the Audio Station Scrobbler README for details on how to setup your Synology NAS. Get scrobblin'!
+This repository contains Lyrics/Last.FM plugin used with [Audio Station Scrobbler](https://github.com/FTLam11/Audio-Station-Scrobbler) to scrobble music to a Last.FM account. Check the Audio Station Scrobbler README for details on how to setup your Synology NAS. *Both the scrobbling server and this plugin are required*. Get scrobblin'!
 
 ## Installation
 
